@@ -38,7 +38,8 @@ Configure the plugin in Kong:
   "config": {
     "middleware_url": "http://my-internal-api:5000/_auth",
     "opa_url": "http://opa-service:8181/v1/data/authz/allow",
-    "gateway_client_cn": "api-gateway"
+    "gateway_client_cn": "api-gateway",
+    "timeout": 5000
   }
 }
 ```
