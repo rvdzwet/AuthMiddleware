@@ -1,0 +1,16 @@
+# .gitignore for .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+packages/
+TestResults/
+*.log
+
+# Kong / Lua
+*.luac
+luarocks/
+*.rock

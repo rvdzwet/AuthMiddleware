@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AuthMiddleware.Core/AuthMiddleware.Core.csproj" />
+  <Project Path="AuthMiddleware.Sample/AuthMiddleware.Sample.csproj" />
+  <Project Path="AuthMiddleware.Tests/AuthMiddleware.Tests.csproj" />
+</Solution>
+

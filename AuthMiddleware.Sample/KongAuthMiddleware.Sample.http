@@ -1,0 +1,6 @@
+@KongAuthMiddleware.Sample_HostAddress = http://localhost:5097
+
+GET {{KongAuthMiddleware.Sample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

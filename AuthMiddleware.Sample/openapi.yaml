@@ -1,0 +1,17 @@
+openapi: 3.0.1
+info:
+  title: Sample API
+  version: v1
+paths:
+  /api/users/{id}:
+    get:
+      operationId: GetUserById
+      responses:
+        '200':
+          description: Success
+  /api/orders:
+    post:
+      operationId: CreateOrder
+      responses:
+        '201':
+          description: Created
