@@ -1,0 +1,14 @@
+apiVersion: kuma.io/v1alpha1
+kind: MeshWasmFilter
+metadata:
+  name: auth-context-opa-filter
+  mesh: default
+spec:
+  targetRef:
+    kind: Mesh
+  config:
+    # URL to the compiled WebAssembly binary (TinyGo)
+    wasm:
+      url: "https://your-artifact-repo/kong-opa-auth.wasm"
+    # Configuration parameters that can be passed to proxywasm.GetPluginConfiguration()
+    # configuration: "..."
